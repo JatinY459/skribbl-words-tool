@@ -81,5 +81,5 @@ else:
 st.divider()
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
-    col2.caption("Made for Fun")
-    col2.subheader("By Jatin Yadav")
+    col2.markdown("""<div style="font-size:1.5rem;">Made for Fun</div>""", unsafe_allow_html=True)
+    col2.markdown("""<div style="font-size:2rem;">By Jatin Yadav</div>""", unsafe_allow_html=True)
