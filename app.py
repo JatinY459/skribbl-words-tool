@@ -89,7 +89,7 @@
 # new one: #######################################
 
 import streamlit as st
-from word_handling import WordCollectionManager
+from utils.word_handling import WordCollectionManager
 import time
 
 # --- Page Configuration ---
