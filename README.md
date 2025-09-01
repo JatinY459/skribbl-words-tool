@@ -72,3 +72,7 @@ With your virtual environment activated and Streamlit installed, run the followi
 ```bash
 streamlit run app.py
 ```
+
+### Made for fun
+
+## By Jatin Yadav

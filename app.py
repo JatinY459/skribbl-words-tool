@@ -77,3 +77,9 @@ else:
                     else:
                         st.toast(f"'{new_word_input}' is already in this collection!", icon="⚠️")
 
+
+st.divider()
+col1, col2, col3 = st.columns([1, 2, 1])
+with col2:
+    col2.caption("Made for Fun")
+    col2.subheader("By Jatin Yadav")
